@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/action_list"
+        android:orderInCategory="100"
+        android:title="添加"
+        app:showAsAction="collapseActionView">
+        <item
+            android:id="@+id/action_list_normal"
+            android:orderInCategory="100"
+            android:title="删除"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/action_list_vertical_reverse"
+            android:orderInCategory="100"
+            android:title="添加"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/action_list_horizontal"
+            android:orderInCategory="100"
+            android:title="水平"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/action_list_horizontal_reverse"
+            android:orderInCategory="100"
+            android:title="水平反向"
+            app:showAsAction="never"/>
+    </item>
+</menu>
